@@ -1,0 +1,36 @@
+from math import *
+
+height = 512
+width = 512
+
+size(width, height, px)
+background(1)
+translate(width/2, height/2)
+
+# text("Welcome to PlotDevice", 40, 40)
+
+nofill()
+strokewidth(3)
+stroke(0.3,0.0,0.4)
+
+font("Helvetica", 16)
+
+with transform():
+    fill(0)
+    text("hello", 0, 0, align=CENTER)
+    
+def rect_center(x,y,l,w):
+    return rect(x-l/2, y-w/2, l, w)
+    
+radius = 200
+# moveto(height/2, width/2)
+for pos in range(36):
+    nofill()
+    with transform():
+        rotate(pos*10)
+        translate(radius,0)
+        rect_center(0,0,40,20)
+        fill(0)
+        text(str(pos*10), 0, 5, align=CENTER)
+
+    

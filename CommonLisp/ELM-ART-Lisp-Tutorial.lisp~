@@ -1,0 +1,46 @@
+(defun my-second (lst)
+  (first (rest lst)))
+
+(defun my-third (lst)
+  (first (rest (rest lst))))
+
+(defun third-in-first-sublist (lst)
+  (first (rest (rest (first lst)))))
+
+(defun perimeter-of-rectangle (side-a side-b)
+  (+ (* 2 side-a) (* 2 side-b)))
+
+(defun cuboid-volume-new (sides)
+  (* (car sides) (cadr sides) (caddr sides)))
+
+(defun weight-of-purchase (shopping-list)
+  (+ (first (rest (first shopping-list)))
+     (first (rest (first (rest shopping-list))))))
+
+(defun weight-of-purchase (shopping-list)
+  (+ (cadar shopping-list)
+     (cadadr shopping-list)))
+
+(defun change-head (l1 l2)
+  (cons (car l2) (cdr l1)))
+
+(defun replace-third (item lst)
+  (cons (car lst)
+	(cons (cadr lst)
+	      (cons item (cdddr lst)))))
+
+(defun insert-behind (elem lst)
+  (reverse (cons elem (reverse lst))))
+
+(defun remove-last (lst)
+  (reverse (cdr (reverse lst))))
+	
+(defun replace-last (elem lst)
+  (reverse (cons elem (cdr (reverse lst)))))
+
+(defun add-lengths (lst1 lst2)
+  (+ (length lst1) (length lst2)))
+
+(defun add-length-to-list (lst)
+  (insert-behind (length lst) lst))
+

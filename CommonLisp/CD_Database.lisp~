@@ -1,0 +1,2 @@
+(defun adder (x)
+  (lambda (y) (+ x y)))
