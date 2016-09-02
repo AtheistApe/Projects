@@ -5,12 +5,19 @@ function setup() {
 }
 
 function mouseDragged() {
-  bubbles.push(new Bubble(mouseX, mouseY));
+  bubble = new Bubble(mouseX, mouseY);
+  bubble.pos = bubbles.length;
+  bubbles.push(bubble);
+
+  // println(bubble.pos);
 }
 
-function mousePressed() {
-  for (var i = 0; i < bubbles.length; ++i) {
-    bubbles[i].clicked();
+function mouseClicked() {
+  for (var i = 0; i < bubbles.length; i++) {
+    d = dist(mouseX, mouseY, bubbles[i].x, bubbles[i].y);
+    if (d < 15) {
+      bubbles.splice(i, 1);
+    }
   }
 }
 
