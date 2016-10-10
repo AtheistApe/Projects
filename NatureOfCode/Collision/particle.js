@@ -14,22 +14,56 @@ function Particle(x, y, radius, colr) {
 
   this.collision = function(particle) {
     var v = p5.Vector.sub(this.position, particle.position);
-    return v.mag() < abs(this.radius - particle.radius);
+    return v.mag() < abs(this.radius + particle.radius);
   }
 
   this.update = function() {
+
+    for (var j = 0; j < particles.length; j++) {
+      if ( i != j && this.collision(particles[j])) {
+        // collide.play();
+        var v = p5.Vector.sub(this.position, particles[j].position);
+
+          gravity.rotate(HALF_PI);
+          var d = this.radius + particles[j].radius - v.mag();
+          vHat = v.normalize();
+
+          this.applyForce(p5.Vector.mult(vHat, particles[1].mass));
+
+          this.position.add(vHat.mult(0.5*d));
+
+          // collide.play();
+
+          var tempColr = this.colr
+          this.colr = particles[j].colr;
+          particles[j].colr = tempColr;
+      }
+    }
+
     this.velocity.add(this.acceleration);
     this.position.add(this.velocity);
     this.acceleration.mult(0);
 
-    if (this.position.x > width || this.position.x < 0) {
+    // if (this.position.x > width || this.position.x < 0) {
+    //   this.velocity.x *= -1;
+    //   this.position.x = (this.position.x > width ? width : 0);
+    //   collide.play();
+    // }
+    if (this.position.x + this.radius >= width || this.position.x - this.radius <= 0) {
+      this.position.x = (this.position.x + this.radius >= width ? width-this.radius : this.radius);
       this.velocity.x *= -1;
-      this.position.x = (this.position.x > width ? width : 0);
+      collide.play();
     }
 
-    if (this.position.y > height || this.position.y < 0) {
+
+    // if (this.position.y > height || this.position.y < 0) {
+    //   this.velocity.y *= -1;
+    //   this.position.y = (this.position.y > height ? height : 0);
+    //   collide.play();
+    if (this.position.y + this.radius >= height || this.position.y - this.radius <= 0) {
+      this.position.y = (this.position.y + this.radius >= height ? height-this.radius : this.radius);
       this.velocity.y *= -1;
-      this.position.y = (this.position.y > height ? height : 0);
+      collide.play();
     }
   }
 
