@@ -1,0 +1,127 @@
+\documentclass[10pt,fleqn]{article}
+
+%       amslatex provides nice math extensions for typesetting mathematics
+\usepackage{amsmath}
+\usepackage{tmmaths}
+
+%       pstricks provides powerful environments for incorporating postscript into a 
+%       TeX/LaTeX document. You must have a postscript printer and a package like
+%       dvips to convert the DVI file to a PS file.
+%\usepackage{pst-all}
+%\usepackage{pstricks,pst-plot}
+%\usepackage{pst-coil,pst-node}
+\usepackage{tkz-tab,tkz-euclide,tkz-fct}
+\usetkzobj{all}   
+\usepackage{calc}
+
+%  This package provides native tex support for numbered grids. The syntax is:
+%  \graphpaper[spc](x_lowleft,y_lowleft)(x_upperright,y_upperright)
+
+%\usepackage{graphpap}
+%\usepackage{float}
+
+%  The package below must be initialized with "\initfloatingfigs" immediately after the
+%  "\begin{document} command.
+%\usepackage{floatfig}
+
+\usepackage{graphicx}
+\graphicspath{{i:/mytex/graphics}}
+\DeclareGraphicsExtensions{.ps,.eps}
+
+%       tst is a package for the creation of exams, quizzes and tests. the include
+%       file mathstuf (see below) provides many abbreviations for these environments.
+%\usepackage{tst}
+
+%       epsfig is a package which provides for the inclusion of Encapsulated PostScript
+%       files in a document.
+%\usepackage{epsfig}
+%\usepackage{epic,eepic}
+\include{mathstuf}
+\usepackage[total={7.75in,10in},top=0.25in,left=0.5in,includehead]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{Math 120}
+\rhead{\large Name\makebox[2in]{\hrulefill}}
+\chead{\LARGE Quiz 7}
+\lfoot{\today}
+\cfoot{}
+%\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2ex}
+
+\newcounter{tf}[enumi]
+\newenvironment{tf}[0]{\begin{list}%
+{\alph{tf}. \makebox[5em]{True\hfill False}}%
+{\usecounter{tf}\setlength{\labelwidth}{7em}%
+\setlength{\leftmargin}{3.5cm}%
+\setlength{\labelsep}{1cm}}}%
+{\end{list}}
+
+\newcommand{\ds}{\displaystyle}
+\usepackage{tabularx}
+\begin{document}
+Carefully read the instructions to each problem in the quiz and
+respond directly to the questions asked. Work the problems in as neat
+and organized a manner as possible. Clearly show your work and circle
+or otherwise indicate your answers. Good success to you.
+\begin{enumerate}
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{0pt}
+\item Use the graph at the right to do the following
+  problems. The plotted curve is the graph of a function $y = f(x)$.
+  \begin{enumerate}
+    \item Does this function have an inverse function $f^{-1}$? How
+      can you tell? Be specific!\\[0.5in]
+    \item What is the approximate value of $f(2)$ to the nearest tenth?\\[0.25in]
+    \item For what value(s) of $x$ is $f(x) = 1$?
+  \end{enumerate}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+  \vspace{-2ex}
+\begin{tikzpicture}[xscale=0.75]
+  \tkzInit[xmin=-5,xmax=5,ymin=-2,ymax=5]
+  \tkzGrid
+  \tkzAxeXY
+  \tkzFct[color=black,line width=2pt]{0.25*(x-1)*(x+3)*x + 1}
+  \tkzText[right](2,3.5){$y = f(x)$}
+\end{tikzpicture}
+\end{minipage}\\[0.25in]
+\begin{minipage}[t]{0.5\textwidth}
+  \vspace{0pt}
+\item Use the graph at the right to do the following
+  problems. The curve already plotted has equation $y = b^x$,
+  for some value of $b$.
+  \begin{enumerate}
+    \item Is the base $b$ a number bigger than one or a number
+      between zero and one? How can you tell?\\[0.5in]
+    \item What is the approximate value of $b$ to the nearest
+      tenth.\\[0.25in]
+    \item Is this an increasing or decreasing exponential
+      function?
+  \end{enumerate}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.4\textwidth}
+  \vspace{-2ex}
+\begin{tikzpicture}[xscale=0.75]
+  \tkzInit[xmin=-5,xmax=5,ymin=-2,ymax=5]
+  \tkzGrid
+  \tkzAxeXY
+  \tkzFct[color=black,line width=2pt]{1.5**x}
+  \tkzText[left](3,3.5){$f(x) = b^{x}$}
+\end{tikzpicture}
+\end{minipage}
+\item If $f$ is an invertible function with inverse $f^{-1}$ and the point $(-2,7)$
+  is on the graph of $f$, then:
+  \begin{enumerate}
+    \item name one point which must be on the graph of $f^{-1}$.
+    \item What is the value of $(f^{-1} \circ f)(-2)$?
+  \end{enumerate}
+\item The function $g(x) = \frac{1}{3} x - 1 = y$ is a one-to-one function. Find a formula
+  for $g^{-1}(x)$.
+\end{enumerate}
+
+\end{document}

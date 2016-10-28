@@ -1,0 +1,85 @@
+Term,Course,ID,Name,e-Mail,Phone
+Summer 2016,MATH 110 OLH,'G01037865,"Abu Saada, Saleem S.",saleemabusaada@my.smccd.edu, 
+Summer 2016,MATH 110 OLH,'G01052773,"Abuyaghi, Catherine H.",catherineabuyaghi@my.smccd.edu,650-302-0534 
+Summer 2016,MATH 110 OLH,'G01026911,"Acosta, Alexis J.",alexisacosta@my.smccd.edu,650-861-1028 
+Summer 2016,MATH 110 OLH,'G00872229,"Acosta, Daniela H.",dacost13@my.smccd.edu,650-619-1116 
+Summer 2016,MATH 110 OLH,'G01036026,"Alcantar Acosta, Carlos G.",carlosalcantarac@my.smccd.edu,650-866-9762 
+Summer 2016,MATH 110 OLH,'G00708456,"Ammari, Souzan F.",souzaammari@my.smccd.edu,650-270-4608 
+Summer 2016,MATH 110 OLH,'G00852977,"Androski, Cherry M.",cmendo66@my.smccd.edu,415-794-2155 
+Summer 2016,MATH 110 OLH,'G01034534,"Carino, Karen Hannelore F.",karenhannecarino@my.smccd.edu,415-920-3370 
+Summer 2016,MATH 110 OLH,'G00947157,"Concepcion, Richard Jay G.",richaconcepc@my.smccd.edu,650-580-7583 
+Summer 2016,MATH 110 OLH,'G01007675,"Curincita, Jennifer",jcurinc1@my.smccd.edu,650-834-3289 
+Summer 2016,MATH 110 OLH,'G00947646,"Deleon, Lilian M.",liliadeleon@my.smccd.edu,650-200-6024 
+Summer 2016,MATH 110 OLH,'G01030307,"Delgado, Jamyl G.",jamyldelgado@my.smccd.edu,408-394-1279 
+Summer 2016,MATH 110 OLH,'G00994922,"Fuller, Jordan I.",jfulle26@my.smccd.edu,650-346-2850 
+Summer 2016,MATH 110 OLH,'G00161562,"Gueco, Maria U.",mgueco@my.smccd.edu,650-312-8974 
+Summer 2016,MATH 110 OLH,'G01019708,"Healey, Nicholas J.",nicholashealey@my.smccd.edu,650-888-4813 
+Summer 2016,MATH 110 OLH,'G01036034,"Iturralde, Katrina C.",katrinaiturralde@my.smccd.edu,650-228-3391 
+Summer 2016,MATH 110 OLH,'G01033572,"Kmetz, Roberta V.",robertakmetz@my.smccd.edu,650-422-9388 
+Summer 2016,MATH 110 OLH,'G00763575,"Laquian, Jessamyn E.",jlaquian@my.smccd.edu,650-278-6059 
+Summer 2016,MATH 110 OLH,'G01024620,"Learned, Logan M.",loganlearned@my.smccd.edu,650-766-6757 
+Summer 2016,MATH 110 OLH,'G01038273,"Li, Run Ming W.",runmingli@my.smccd.edu,415-200-8824 
+Summer 2016,MATH 110 OLH,'G00809154,"Littlejohn, Denise M.",deniselittlejohn@my.smccd.edu,415-830-0333 
+Summer 2016,MATH 110 OLH,'G01058567,"Luong, Djuna Y.",djunaluong@my.smccd.edu,650-293-7687 
+Summer 2016,MATH 110 OLH,'G01036109,"Maddox, Khadijah S.",khadijahmaddox@my.smccd.edu,415-885-9502 
+Summer 2016,MATH 110 OLH,'G01047696,"Martinez, Stephanie",stephaniem2@my.smccd.edu,619-455-1410 
+Summer 2016,MATH 110 OLH,'G01015869,"Medina, Benjamin",benjaminmedina@my.smccd.edu,415-469-9428 
+Summer 2016,MATH 110 OLH,'G00951737,"Mendez, Ma Lourdes R.",mmende44@my.smccd.edu,707-430-2831 
+Summer 2016,MATH 110 OLH,'G00963392,"Molina, Lucciano E.",lmolin33@my.smccd.edu,650-732-0023 
+Summer 2016,MATH 110 OLH,'G01022022,"Morgenthaler, Lillian M.",lillianmorgenthal@my.smccd.edu,650-796-5052 
+Summer 2016,MATH 110 OLH,'G01017963,"Morris, Charne M.",charnemorris@my.smccd.edu,650-576-3504 
+Summer 2016,MATH 110 OLH,'G01039678,"Najjar, Shereen K.",shereennajjar@my.smccd.edu,415-988-3332 
+Summer 2016,MATH 110 OLH,'G00742957,"Nguyen, Linda M.",lnguye70@my.smccd.edu,831-920-8085 
+Summer 2016,MATH 110 OLH,'G00937758,"Palma, Cassandra A.",cassapalma@my.smccd.edu,650-271-3674 
+Summer 2016,MATH 110 OLH,'G00969806,"Paran, Frances",fparan@my.smccd.edu,415-559-5438 
+Summer 2016,MATH 110 OLH,'G01029677,"Rasalan, Ryan V.",ryanrasalan@my.smccd.edu,415-359-5291 
+Summer 2016,MATH 110 OLH,'G01035766,"Riddick, Tahnee C.",tahneeriddick@my.smccd.edu,415-726-8283 
+Summer 2016,MATH 110 OLH,'G01015193,"Sanidad, Justine S.",justinesanidad@my.smccd.edu,415-971-3464 
+Summer 2016,MATH 110 OLH,'G01002497,"Santos, Loree A.",lsanto30@my.smccd.edu,415-425-0388 
+Summer 2016,MATH 110 OLH,'G01049193,"Siler, Heather N.",heathersiler@my.smccd.edu,513-543-0610 
+Summer 2016,MATH 110 OLH,'G01030321,"Siu, Frances G.",francessiu@my.smccd.edu,650-255-5599 
+Summer 2016,MATH 110 OLH,'G01056785,"Taloa, Mariah",mariahtaloa@my.smccd.edu,209-627-8030 
+Summer 2016,MATH 110 OLH,'G00968302,"Tayo, Orpha T.",otayo@my.smccd.edu,650-921-3764 
+Summer 2016,MATH 110 OLH,'G01013751,"Tran, Kristina A.",kristinatran@my.smccd.edu,415-351-8617 
+Summer 2016,MATH 110 OLH,'G01028824,"Wu, Jennifer Y.",jenniferwu2@my.smccd.edu,415-816-6239 
+Summer 2016,MATH 120 OLH,'G00827745,"Aldana, Maria D.",maldana8@my.smccd.edu,650-863-2466 
+Summer 2016,MATH 120 OLH,'G01007693,"Anderson, Sarah",sande139@my.smccd.edu,650-520-7533 
+Summer 2016,MATH 120 OLH,'G00969446,"Augustine, Alexis C.",aaugust2@my.smccd.edu,415-318-0553 
+Summer 2016,MATH 120 OLH,'G01047859,"Balasubramanyam, Victoria R.",victoriabalasubram@my.smccd.edu,650-832-1105 
+Summer 2016,MATH 120 OLH,'G00447069,"Beecher, Aaron",abeecher@my.smccd.edu,619-808-7471 
+Summer 2016,MATH 120 OLH,'G00996464,"Buitrago, Anastasia",abuitra5@my.smccd.edu,650-787-4791 
+Summer 2016,MATH 120 OLH,'G00994482,"Chew, Courtney B.",cchew17@my.smccd.edu,650-346-6463 
+Summer 2016,MATH 120 OLH,'G01013259,"Cubias Martinez, Kimberly D.",kimberlycubiasmart@my.smccd.edu,650-281-1941 
+Summer 2016,MATH 120 OLH,'G01058938,"Dowd, Keriann E.",kerianndowd@my.smccd.edu,858-444-6680 
+Summer 2016,MATH 120 OLH,'G01034060,"Espinoza, Dahiana A.",dahianaespinoza@my.smccd.edu,650-863-5317 
+Summer 2016,MATH 120 OLH,'G01050681,"Fahmy, Amira N.",amirafahmy@my.smccd.edu,415-710-6187 
+Summer 2016,MATH 120 OLH,'G01014129,"Gamez, Kirstin M.",kirstingamez@my.smccd.edu,510-921-8630 
+Summer 2016,MATH 120 OLH,'G01024938,"Grommunt, Michal",michalgrommunt@my.smccd.edu, 
+Summer 2016,MATH 120 OLH,'G01034012,"Guevara Gonzalez, Melissa D.",melissaguevaragon@my.smccd.edu,650-921-8634 
+Summer 2016,MATH 120 OLH,'G00877786,"Hoffman, Phung",rhoffm27@my.smccd.edu,650-452-4147 
+Summer 2016,MATH 120 OLH,'G00962633,"Joe, Christopher A.",cjoe9@my.smccd.edu,650-757-6119 
+Summer 2016,MATH 120 OLH,'G01033792,"Kiernan, Casey N.",caseykiernan@my.smccd.edu,650-504-1527 
+Summer 2016,MATH 120 OLH,'G01021157,"Ladores, Nicholas L.",nicholasladores@my.smccd.edu,650-452-8468 
+Summer 2016,MATH 120 OLH,'G00903415,"Llaguno, Mary Queen D.",mllaguno@my.smccd.edu,415-637-3890 
+Summer 2016,MATH 120 OLH,'G01018079,"Maciel, Sergio",sergiomaciel@my.smccd.edu,650-219-5744 
+Summer 2016,MATH 120 OLH,'G01015277,"Marquart, Brooke M.",brookemarquart@my.smccd.edu,650-766-8415 
+Summer 2016,MATH 120 OLH,'G00963087,"Mashal, Salam",smashal@my.smccd.edu,415-828-5903 
+Summer 2016,MATH 120 OLH,'G01010486,"Morales, Abigail V.",amoral93@my.smccd.edu,650-315-3513 
+Summer 2016,MATH 120 OLH,'G01038148,"Olimpo, Lindsey",lindseyolimpo@my.smccd.edu,650-796-3541 
+Summer 2016,MATH 120 OLH,'G00997533,"Patel, Shivani V.",spatel65@my.smccd.edu,415-845-2351 
+Summer 2016,MATH 120 OLH,'G01007255,"Pinacho, Gabriel",gpinacho@my.smccd.edu,650-834-0531 
+Summer 2016,MATH 120 OLH,'G00949996,"Ramirez, Vicker John M.",vramir34@my.smccd.edu,415-889-3250 
+Summer 2016,MATH 120 OLH,'G01036973,"Rico, Alex J.",alexrico@my.smccd.edu,650-291-2058 
+Summer 2016,MATH 120 OLH,'G00800576,"Schmeeckle, Catherine R.",cschmeec@my.smccd.edu,650-678-3367 
+Summer 2016,MATH 120 OLH,'G01002733,"Simison, Justin C.",jsimison@my.smccd.edu,650-315-8628 
+Summer 2016,MATH 120 OLH,'G01051025,"Smith, Kevin M.",kevinsmith@my.smccd.edu,702-743-1584 
+Summer 2016,MATH 120 OLH,'G01028560,"Smith, Olivia E.",oliviasmith@my.smccd.edu,650-515-9973 
+Summer 2016,MATH 120 OLH,'G01027499,"Taylor, Rosemarie Eunice A.",rosemarietaylor@my.smccd.edu,650-740-6921 
+Summer 2016,MATH 120 OLH,'G01056767,"Tcheau, Estee J.",esteetcheau@my.smccd.edu,650-207-6898 
+Summer 2016,MATH 120 OLH,'G01049681,"Ueda, Koni",koniueda@my.smccd.edu,650-863-3483 
+Summer 2016,MATH 120 OLH,'G01040191,"Ulac, Cem",cemulac@my.smccd.edu, 
+Summer 2016,MATH 120 OLH,'G00731718,"Valdivias, Cindy E.",cindyvaldivi@my.smccd.edu,650-494-4048 
+Summer 2016,MATH 120 OLH,'G01052295,"Wilberforce, Benaiah J.",benaiahwilberforc@my.smccd.edu,650-342-1983 
+Summer 2016,MATH 120 OLH,'G01001499,"Winnett, Michael F.",mwinnett@my.smccd.edu,650-455-8618 
+Summer 2016,MATH 120 OLH,'G01024679,"Wolf, Chandler J.",chandlerwolf@my.smccd.edu,650-931-7323 
+Summer 2016,MATH 120 OLH,'G01051827,"Zavala, Stephanie I.",stephaniezavala@my.smccd.edu,650-344-8032 

@@ -1,0 +1,148 @@
+Term,Course,ID,Name,e-Mail,Phone,Enrollment Status
+Fall 2015,MATH 120 HYH,'G00992815,"Aragon, Antoinette",aarago21@my.smccd.edu,650-504-5513, 
+Fall 2015,MATH 120 HYH,'G00999297,"De Leon, Eduardo",edeleo20@my.smccd.edu,510-695-9770, 
+Fall 2015,MATH 120 HYH,'G01023656,"Dela Rosa, Jelly Ann M.",jellyanndelarosa@my.smccd.edu,650-293-1943, 
+Fall 2015,MATH 120 HYH,'G01037480,"Evsen, Yunus",yunusevsen@my.smccd.edu,650-533-5539, 
+Fall 2015,MATH 120 HYH,'G01022536,"Fuentes, Emme A.",emmefuentes@my.smccd.edu,650-437-4675, 
+Fall 2015,MATH 120 HYH,'G00962221,"Garcia Figueroa, Julie T.",jgarciaf@my.smccd.edu,209-499-0494, 
+Fall 2015,MATH 120 HYH,'G01014778,"Giari, Georgia M.",georgiagiari@my.smccd.edu,650-288-5116, 
+Fall 2015,MATH 120 HYH,'G00975404,"Gonzalez, Mario A.",mgonz377@my.smccd.edu,, 
+Fall 2015,MATH 120 HYH,'G00970319,"Husher, Timothy J.",thusher@my.smccd.edu,650-201-9024, 
+Fall 2015,MATH 120 HYH,'G00996786,"Ignacio, Malena J.",mignac21@my.smccd.edu,831-262-7119, 
+Fall 2015,MATH 120 HYH,'G01004310,"Kumar, Pallavi M.",pkumar18@my.smccd.edu,510-219-2736, 
+Fall 2015,MATH 120 HYH,'G01017804,"Lin, Yong Xin",yongxinlin@my.smccd.edu,, 
+Fall 2015,MATH 120 HYH,'G01037125,"Liu, Crystal Y.",crystalliu@my.smccd.edu,415-828-6461, 
+Fall 2015,MATH 120 HYH,'G00883375,"Mailangi, Christina T.",cmailang@my.smccd.edu,650-271-0654, 
+Fall 2015,MATH 120 HYH,'G00948493,"Melchor, Celia A.",celiamelchor@my.smccd.edu,650-454-6586, 
+Fall 2015,MATH 120 HYH,'G00952551,"Mendez, Richard J.",rmende33@my.smccd.edu,650-430-0474, 
+Fall 2015,MATH 120 HYH,'G01036800,"Ng, Lori",loring@my.smccd.edu,415-261-7078, 
+Fall 2015,MATH 120 HYH,'G00941937,"Nobles, Tahra C.",tahranobles@my.smccd.edu,510-915-3448, 
+Fall 2015,MATH 120 HYH,'G01035683,"Padilla, Silvana P.",silvanapadilla@my.smccd.edu,650-452-4830, 
+Fall 2015,MATH 120 HYH,'G01041161,"Pastelero, Jaime Angelo B.",jaimeangelpastelero@my.smccd.edu,, 
+Fall 2015,MATH 120 HYH,'G00869399,"Puccetti, Elena F.",epuccet2@my.smccd.edu,415-542-8343, 
+Fall 2015,MATH 120 HYH,'G00966070,"Quan, Andrew M.",aquan8@my.smccd.edu,415-694-3455, 
+Fall 2015,MATH 120 HYH,'G00589653,"Roque, Priscilla",priscillaroque@my.smccd.edu,650-290-3368, 
+Fall 2015,MATH 120 HYH,'G00979166,"Russell, Greyson K.",grusse16@my.smccd.edu,650-740-4714, 
+Fall 2015,MATH 120 HYH,'G01011578,"Satizabal, Laurie M.",lauriesatizabal@my.smccd.edu,650-701-6408, 
+Fall 2015,MATH 120 HYH,'G01026797,"Stovall, Martin I.",martinstovall@my.smccd.edu,650-544-3347, 
+Fall 2015,MATH 120 HYH,'G01044247,"Sun, Yitao",yitaosun@my.smccd.edu,415-939-3115, 
+Fall 2015,MATH 120 HYH,'G01028104,"Twal, Joseph V.",josephtwal@my.smccd.edu,415-994-6834, 
+Fall 2015,MATH 120 HYH,'G00991693,"Valencia, Guadalupe",gvalen12@my.smccd.edu,650-218-2709, 
+Fall 2015,MATH 120 HYH,'G01040411,"Vazquez, Monica I.",monicavazquez@my.smccd.edu,650-580-3536, 
+Fall 2015,MATH 120 HYH,'G00411963,"Wall, Elizabeth W.",elizawa1@my.smccd.edu,650-863-5597, 
+Fall 2015,MATH 120 HYH,'G00994407,"Abarca, Melissa E.",mabarca9@my.smccd.edu,650-776-3311,Withdraw: 06-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00992230,"Alviar, Jason",jalviar1@my.smccd.edu,650-834-4650,Withdraw: 14-SEP-2015 
+Fall 2015,MATH 120 HYH,'G00990883,"Brady, Sarah A.",sbrady11@my.smccd.edu,415-490-7141,Drop: 31-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00760114,"Brewster, Jonathan B.",jbrewst6@my.smccd.edu,650-375-1101,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00929511,"Farantos, Dena H.",denafaranto@my.smccd.edu,650-520-0860,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 120 HYH,'G01004424,"Filippini, Ivan G.",ifilippi@my.smccd.edu,650-808-7198,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00705619,"Flores, Ruby P.",rflore90@my.smccd.edu,650-784-5291,Drop: 17-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00152673,"Foley, Lisa M.",lfoley5@my.smccd.edu,650-347-1033,Drop: 22-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01028689,"Gallinat, Lesley A.",lesleygallinat@my.smccd.edu,,Withdraw: 16-OCT-2015 
+Fall 2015,MATH 120 HYH,'G01032585,"Garcia, Carolina S.",carolinagarcia@my.smccd.edu,415-299-7973,Withdraw: 07-NOV-2015 
+Fall 2015,MATH 120 HYH,'G01016548,"Gonzalez, Nectalis",nectalisgonzalez@my.smccd.edu,415-286-8717,Drop: 26-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00971569,"Greer, Asia N.",agreer7@my.smccd.edu,415-684-4481,Drop: 07-SEP-2015 
+Fall 2015,MATH 120 HYH,'G01012373,"Hakobyan, Yan",yanekhakobyan@my.smccd.edu,415-264-8417,Withdraw: 14-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00967719,"King, Breanna N.",bking29@my.smccd.edu,415-902-6915,Withdraw: 05-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00960945,"Lakhan, Maashud B.",mlakhan@my.smccd.edu,650-554-8295,Withdraw: 12-NOV-2015 
+Fall 2015,MATH 120 HYH,'G01030702,"Lambert, Donald E.",donaldlambert@my.smccd.edu,337-335-7871,Drop: 21-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01042385,"Moran, Alejandro",alejandromoran@my.smccd.edu,415-244-4030,Drop: 07-SEP-2015 
+Fall 2015,MATH 120 HYH,'G01003266,"Ong, Kathryn C.",kong13@my.smccd.edu,650-554-1249,Drop: 19-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01010514,"Padilla, Carlos E.",cpadil27@my.smccd.edu,510-461-0360,Drop: 25-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00593663,"Petrini, Alexandra E.",alexapetrini@my.smccd.edu,650-619-3307,Withdraw: 13-OCT-2015 
+Fall 2015,MATH 120 HYH,'G01029925,"Ramos, Nelson R.",nelsonramos@my.smccd.edu,510-660-4965,Drop: 26-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00966347,"Robles-Lopez, Bleivis I.",broblesl@my.smccd.edu,650-281-3731,Drop: 28-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01018787,"Rocha, Jose",joserocha@my.smccd.edu,650-260-2099,Withdraw: 12-NOV-2015 
+Fall 2015,MATH 120 HYH,'G00999022,"San Pedro, Cleo Vernadette P.",csanpedr@my.smccd.edu,650-534-4157,Drop: 04-SEP-2015 
+Fall 2015,MATH 120 HYH,'G01001578,"Sandoval, Nubia",nsando11@my.smccd.edu,650-430-0967,Drop: 26-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00937553,"Santos, Ruby",rubysantos@my.smccd.edu,650-399-5235,Drop: 21-AUG-2015 
+Fall 2015,MATH 120 HYH,'G00743835,"Scala, Michelle M.",mscala@my.smccd.edu,650-235-6215,Withdraw: 14-OCT-2015 
+Fall 2015,MATH 120 HYH,'G01034350,"Thapa, Drona",dronathapa@my.smccd.edu,,Drop: 24-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01010312,"Ucan, Dogukan",ducan@my.smccd.edu,650-483-1192,Withdraw: 24-OCT-2015 
+Fall 2015,MATH 120 HYH,'G00989010,"Williams, Ricardo J.",rwill198@my.smccd.edu,650-921-6749,Drop: 29-AUG-2015 
+Fall 2015,MATH 120 HYH,'G01036896,"Xie, Tianyu",tianyuxie@my.smccd.edu,,Withdraw: 14-NOV-2015 
+Fall 2015,MATH 252 AB,'G01029006,"AZMIN, AHMAD AUFA B.",ahmadaufaazmin@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00907935,"Cabe, Christian M.",ccabe@my.smccd.edu,650-863-5751, 
+Fall 2015,MATH 252 AB,'G01025128,"Cao, Yue",yuecao@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00999587,"Chen, Feifan",fchen25@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00933316,"Chu, Christopher R.",chrischu@my.smccd.edu,650-296-6288, 
+Fall 2015,MATH 252 AB,'G01016745,"Chuatico, Monali Mirel M.",monalimirechuatico@my.smccd.edu,650-273-3470, 
+Fall 2015,MATH 252 AB,'G01014154,"Deng, Yuwen",yuwendeng@my.smccd.edu,650-302-9794, 
+Fall 2015,MATH 252 AB,'G00936670,"Dubey, Rahatdeep",rahatdubey@my.smccd.edu,650-452-2901, 
+Fall 2015,MATH 252 AB,'G01014504,"Fong, Terrence",terrencefong@my.smccd.edu,415-819-3873, 
+Fall 2015,MATH 252 AB,'G01027916,"Fung, Sze Yuen",szeyuenfung@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01009529,"Fung, Yee Kit",yfung10@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01027951,"Gao, Ziqi",ziqigao@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01014271,"Guerrero, Laura A.",lauraguerrero@my.smccd.edu,650-863-3201, 
+Fall 2015,MATH 252 AB,'G00990362,"Hilby, Kristan M.",khilby@my.smccd.edu,650-274-1565, 
+Fall 2015,MATH 252 AB,'G01000592,"Ho, En-hao",eho44@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01029199,"Hu, Jingxi",jingxihu@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00939932,"Jin, Ryan K.",ryanjin@my.smccd.edu,650-578-8756, 
+Fall 2015,MATH 252 AB,'G01009496,"Khoury, Joseph B.",jkhour11@my.smccd.edu,619-665-4471, 
+Fall 2015,MATH 252 AB,'G01008992,"Kim, Youngmin",ykim91@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01007270,"Liu, Lulu",lliu52@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00915224,"Martinez, Alexandra",alexamartine@my.smccd.edu,650-610-9153, 
+Fall 2015,MATH 252 AB,'G01018648,"Nguyen, Vivian",viviannguy1@my.smccd.edu,714-357-3319, 
+Fall 2015,MATH 252 AB,'G00924172,"Paap, Alexander K.",alexapaap@my.smccd.edu,650-235-5299, 
+Fall 2015,MATH 252 AB,'G01029214,"Pan, Jiaxin",jiaxinpan@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01000824,"Piccolotti, Javier R.",jpiccol4@my.smccd.edu,650-922-4022, 
+Fall 2015,MATH 252 AB,'G01003207,"Sun, Xiaoqian",xsun6@my.smccd.edu,408-896-3537, 
+Fall 2015,MATH 252 AB,'G00990479,"Wan, Yongjie",ywan6@my.smccd.edu,650-576-7055, 
+Fall 2015,MATH 252 AB,'G01016996,"Wang, Xinbo",xinbowang@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01018516,"Wong, Nicole T.",nicolewong@my.smccd.edu,650-777-4386, 
+Fall 2015,MATH 252 AB,'G01002383,"Wong, Sio Pang",swong375@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01009504,"Yan, Weiwen",wyan12@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01018912,"Zhang, Zixin",zixinzhang@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G01010365,"Zhao, Weibo",wzhao12@my.smccd.edu,, 
+Fall 2015,MATH 252 AB,'G00985774,"Chan, Coco",cchan221@my.smccd.edu,415-312-4660,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 252 AB,'G00918700,"Gonzalez, Daniel",daniegonzale@my.smccd.edu,408-275-8602,Withdraw: 15-NOV-2015 
+Fall 2015,MATH 252 AB,'G00991774,"Ildefonso, Alejandro S.",aildefon@my.smccd.edu,650-863-7303,Withdraw: 21-SEP-2015 
+Fall 2015,MATH 252 AB,'G00760621,"Kung, Arthur J.",akung4@my.smccd.edu,650-347-9875,Withdraw: 02-NOV-2015 
+Fall 2015,MATH 252 AB,'G00988890,"Leung, Joshua",jleung70@my.smccd.edu,415-601-3813,Withdraw: 15-NOV-2015 
+Fall 2015,MATH 252 AB,'G01013447,"Liang, Kevin C.",kevinliang@my.smccd.edu,415-602-8479,Drop: 17-AUG-2015 
+Fall 2015,MATH 252 AB,'G01015822,"Lin, Sandra A.",sandralin@my.smccd.edu,650-777-0951,Wait List: 01-JUN-2015 
+Fall 2015,MATH 252 AB,'G00923341,"Mendoza, Karen Claire G.",karenme1@my.smccd.edu,650-866-9433,Drop: 31-AUG-2015 
+Fall 2015,MATH 252 AB,'G00930126,"Pules, Vasilika S.",vasilpules@my.smccd.edu,650-759-2643,Withdraw: 15-NOV-2015 
+Fall 2015,MATH 252 AB,'G01028459,"Xia, Ming H.",mingxia@my.smccd.edu,650-619-2795,Wait List: 30-JUL-2015 
+Fall 2015,MATH 241 AD,'G01028666,"ABDUL HALIM, NUR ELISA B.",nurelisaabdulhalim@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01034559,"Aeri, Nisha",nishaaeri@my.smccd.edu,650-766-4803, 
+Fall 2015,MATH 241 AD,'G01014444,"Barron, Julia K.",juliabarron@my.smccd.edu,650-341-2683, 
+Fall 2015,MATH 241 AD,'G00877328,"Chang, Hao T.",hchang46@my.smccd.edu,650-341-3485, 
+Fall 2015,MATH 241 AD,'G00864973,"Dela Cruz, Vince Andrew L.",vdelacr3@my.smccd.edu,650-483-8240, 
+Fall 2015,MATH 241 AD,'G00946184,"Dinglasan, Patricia A.",patridinglas@my.smccd.edu,650-274-6374, 
+Fall 2015,MATH 241 AD,'G00993416,"Dizon, Brian P.",bdizon@my.smccd.edu,415-307-8860, 
+Fall 2015,MATH 241 AD,'G00985306,"Jiang, Minmin",mjiang7@my.smccd.edu,650-302-8461, 
+Fall 2015,MATH 241 AD,'G01037096,"Joshi, Neel A.",neeljoshi@my.smccd.edu,650-622-2199, 
+Fall 2015,MATH 241 AD,'G01013096,"KC, Praoraya",praorayakc@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01037060,"Lei, Deming",deminglei@my.smccd.edu,650-954-0178, 
+Fall 2015,MATH 241 AD,'G01018321,"Leung, Lo Shan",loshanleung@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01002607,"Li, Menghao",mli79@my.smccd.edu,415-666-5009, 
+Fall 2015,MATH 241 AD,'G01029635,"Liu, Steven B.",stevenliu@my.smccd.edu,415-671-5701, 
+Fall 2015,MATH 241 AD,'G01015831,"Luquin-Barba, Mayra I.",mayraluquinbarb@my.smccd.edu,650-726-2627, 
+Fall 2015,MATH 241 AD,'G00874238,"Menjivar, Vianca J.",vmenjiv2@my.smccd.edu,650-219-0438, 
+Fall 2015,MATH 241 AD,'G00872677,"Ng, Nathan",nng19@my.smccd.edu,650-307-7708, 
+Fall 2015,MATH 241 AD,'G01008200,"Nguyen, Tra Giang T.",tnguy340@my.smccd.edu,510-409-1732, 
+Fall 2015,MATH 241 AD,'G01007931,"Oupraxay, Vanmala",voupraxa@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01014788,"Skevos, William T.",williamskevos@my.smccd.edu,415-816-7285, 
+Fall 2015,MATH 241 AD,'G01044403,"Tang, Ziyi",ziyitang@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01040142,"Tejada, Alison B.",alisontejada@my.smccd.edu,650-520-5707, 
+Fall 2015,MATH 241 AD,'G00886998,"Vallecillo, Russell P.",rvallec3@my.smccd.edu,650-339-1677, 
+Fall 2015,MATH 241 AD,'G00945489,"Vasquez-Rangel, Alicia",alicivasquez@my.smccd.edu,650-286-1366, 
+Fall 2015,MATH 241 AD,'G01001046,"Xie, Shuwen",sxie9@my.smccd.edu,, 
+Fall 2015,MATH 241 AD,'G01013099,"Xu, Jiasheng",jiashengxu@my.smccd.edu,650-557-6011, 
+Fall 2015,MATH 241 AD,'G01009919,"Aerne, Madalyn E.",maerne@my.smccd.edu,503-523-9422,Withdraw: 09-NOV-2015 
+Fall 2015,MATH 241 AD,'G00869119,"Amaya, Esmeralda",eamaya7@my.smccd.edu,650-726-0146,Drop: 27-AUG-2015 
+Fall 2015,MATH 241 AD,'G00986896,"Arellano, Jesse",jarell26@my.smccd.edu,650-315-8956,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 241 AD,'G01034379,"Arroliga Miranda, Aileen D.",aileenarroligami@my.smccd.edu,415-724-1773,Withdraw: 29-OCT-2015 
+Fall 2015,MATH 241 AD,'G01023479,"Chen, Jingwan",jingwanchen@my.smccd.edu,,Drop: 27-AUG-2015 
+Fall 2015,MATH 241 AD,'G00900524,"Ching, Shanah  Grace L.",sching12@my.smccd.edu,,Withdraw: 14-NOV-2015 
+Fall 2015,MATH 241 AD,'G00915457,"Dai, Qinyan",qinyadai@my.smccd.edu,510-509-0107,Withdraw: 04-NOV-2015 
+Fall 2015,MATH 241 AD,'G01030429,"Gonzalez, Katerine I.",katerinegonzalez@my.smccd.edu,415-729-6097,Withdraw: 16-NOV-2015 
+Fall 2015,MATH 241 AD,'G01020868,"King, Victoria J.",victoriaking@my.smccd.edu,650-218-2360,Wait List: 16-AUG-2015 
+Fall 2015,MATH 241 AD,'G01013725,"Lovewell, Katriel J.",katriellovewell@my.smccd.edu,650-218-4765,Withdraw: 14-SEP-2015 
+Fall 2015,MATH 241 AD,'G00959345,"Pabla, Ranisha",rpabla@my.smccd.edu,650-520-0362,Withdraw: 13-OCT-2015 
+Fall 2015,MATH 241 AD,'G00992584,"Sanft, Taylor F.",tsanft@my.smccd.edu,650-345-3393,Withdraw: 07-NOV-2015 
+Fall 2015,MATH 241 AD,'G01021767,"Simsova, Sarka",sarkasimsova@my.smccd.edu,650-283-4741,Wait List: 13-AUG-2015 
+Fall 2015,MATH 241 AD,'G00961925,"Tan, William",wtan12@my.smccd.edu,650-307-8457,Withdraw: 15-NOV-2015 
+Fall 2015,MATH 241 AD,'G00983002,"Vega, Carlos E.",cvega16@my.smccd.edu,650-464-9802,Drop: 03-SEP-2015 
+Fall 2015,MATH 241 AD,'G00928019,"Verdugo Gonzalez, Ricardo",ricargonzale@my.smccd.edu,650-303-5305,Withdraw: 09-NOV-2015 

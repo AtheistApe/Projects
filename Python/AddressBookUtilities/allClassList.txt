@@ -1,0 +1,99 @@
+Term,Course,ID,Name,e-Mail,Phone
+Spring 2016,MATH 120 OLH,'G00643488,"Anabeza, Theodore",tanabeza@my.smccd.edu,650-278-6007 
+Spring 2016,MATH 120 OLH,'G01015659,"Anderson, Hailey M.",haileyanderson@my.smccd.edu,650-422-4507 
+Spring 2016,MATH 120 OLH,'G00965599,"Ayollo, Allen",aayollo@my.smccd.edu,650-754-9483 
+Spring 2016,MATH 120 OLH,'G01026984,"Barrick, Alexa T.",alexabarrick@my.smccd.edu,650-477-0225 
+Spring 2016,MATH 120 OLH,'G00632886,"Castro, Jamie",jcastr49@my.smccd.edu,650-892-7145 
+Spring 2016,MATH 120 OLH,'G01026433,"Choi, Colby C.",colbychoi@my.smccd.edu,415-994-5052 
+Spring 2016,MATH 120 OLH,'G01042827,"Curran, Patricia K.",patriciacurran@my.smccd.edu,415-731-7146 
+Spring 2016,MATH 120 OLH,'G00999297,"De Leon, Eduardo",edeleo20@my.smccd.edu,510-695-9770 
+Spring 2016,MATH 120 OLH,'G01019245,"Del Rosario, Maureen M.",maureendelrosario@my.smccd.edu,650-787-8348 
+Spring 2016,MATH 120 OLH,'G00844489,"Delos Reyes, Kathrinne N.",kdelosr1@my.smccd.edu,510-432-8431 
+Spring 2016,MATH 120 OLH,'G01048737,"Diego, Blane T.",blanediego@my.smccd.edu,760-401-0074 
+Spring 2016,MATH 120 OLH,'G01019560,"Edwards, Robert J.",robertedwards@my.smccd.edu,530-227-7395 
+Spring 2016,MATH 120 OLH,'G01051197,"Falkowski, Matthew D.",matthewfalkowski@my.smccd.edu,530-513-2877 
+Spring 2016,MATH 120 OLH,'G01030779,"Fay, Sean C.",seanfay@my.smccd.edu,408-315-8534 
+Spring 2016,MATH 120 OLH,'G01035289,"Fernandez, Paul Henry L.",paulhenryfernandez@my.smccd.edu,650-455-9699 
+Spring 2016,MATH 120 OLH,'G01005614,"Ghoreishi Shahrak, Bahareh",bghorei1@my.smccd.edu,650-455-2208 
+Spring 2016,MATH 120 OLH,'G01038611,"Gomez Torres, Monica J.",monicagomeztorre@my.smccd.edu,650-678-2127 
+Spring 2016,MATH 120 OLH,'G01020170,"Gonzalez, Mabel I.",mabelgonzalez@my.smccd.edu,650-716-9893 
+Spring 2016,MATH 120 OLH,'G01007143,"Gumban, Lizzete V.",lgumban1@my.smccd.edu,650-834-4574 
+Spring 2016,MATH 120 OLH,'G00857567,"Halbert, Samuel E.",shalber1@my.smccd.edu,650-349-2145 
+Spring 2016,MATH 120 OLH,'G01044787,"Hayes, Nell M.",nellhayes@my.smccd.edu,808-469-5840 
+Spring 2016,MATH 120 OLH,'G00938157,"Heris, Sara N.",saraheris@my.smccd.edu,650-759-1435 
+Spring 2016,MATH 120 OLH,'G00948084,"Hernandez, Elizabeth",elizahe1@my.smccd.edu,650-255-1287 
+Spring 2016,MATH 120 OLH,'G01033504,"Heryford, Peyton M.",peytonheryford@my.smccd.edu,650-867-4035 
+Spring 2016,MATH 120 OLH,'G01035417,"Hoang, Jeffrey A.",jeffreyhoang@my.smccd.edu,510-292-1360 
+Spring 2016,MATH 120 OLH,'G01013328,"Hossain, Lisa",lisahossain@my.smccd.edu,415-760-3737 
+Spring 2016,MATH 120 OLH,'G01040048,"Kaddas, Jeffrey T.",jeffreykaddas@my.smccd.edu,650-490-0902 
+Spring 2016,MATH 120 OLH,'G00894807,"Lopez- Sainz, Aldo",alopezs1@my.smccd.edu, 
+Spring 2016,MATH 120 OLH,'G01043959,"Melkumian, Marsel",marselmelkumian@my.smccd.edu,415-672-4516 
+Spring 2016,MATH 120 OLH,'G01025835,"Mothershed, Tiyanna M.",tiyannamothershed@my.smccd.edu,707-225-7250 
+Spring 2016,MATH 120 OLH,'G00997680,"Mullany, Ryan K.",rmullany@my.smccd.edu,650-452-4757 
+Spring 2016,MATH 120 OLH,'G00989974,"Ortega, Alejandro",aorteg36@my.smccd.edu,650-704-6361 
+Spring 2016,MATH 120 OLH,'G01009707,"Riddell, Keath S.",kriddel3@my.smccd.edu,408-780-6179 
+Spring 2016,MATH 120 OLH,'G00987128,"Rosales, Melanie S.",mrosal28@my.smccd.edu,650-452-3287 
+Spring 2016,MATH 120 OLH,'G00693098,"Stella, Candyce F.",candycestella@my.smccd.edu,650-201-2473 
+Spring 2016,MATH 120 OLH,'G00987997,"Valencia, Marcos O.",mvalen81@my.smccd.edu,510-359-1957 
+Spring 2016,MATH 120 OLH,'G00978527,"Watnick, Shawna J.",swatnick@my.smccd.edu, 
+Spring 2016,MATH 120 OLH,'G01018536,"Yu, Mona",monayu@my.smccd.edu,415-218-0365 
+Spring 2016,MATH 120 OLH,'G01044401,"Zou, Yaqian",yaqianzou@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G01012398,"Adams, Martin D.",martinadams@my.smccd.edu,650-592-5139 
+Spring 2016,MATH 253 AC,'G00908575,"Bayot, Alyanna Mae S.",abayot@my.smccd.edu,415-806-0304 
+Spring 2016,MATH 253 AC,'G01009876,"Bis, Mark A.",mbis1@my.smccd.edu,415-205-2959 
+Spring 2016,MATH 253 AC,'G01006842,"Canfield, Jack K.",jcanfie1@my.smccd.edu,650-339-2506 
+Spring 2016,MATH 253 AC,'G00907868,"Dachauer, Melanie M.",mdachau1@my.smccd.edu,650-773-6977 
+Spring 2016,MATH 253 AC,'G01034945,"Dilly, Frederick S.",frederickdilly@my.smccd.edu,650-224-3510 
+Spring 2016,MATH 253 AC,'G01042701,"Feng, David",davidfeng@my.smccd.edu,650-315-9844 
+Spring 2016,MATH 253 AC,'G00926537,"Gong, Shorwei",shorwgong@my.smccd.edu,650-483-2567 
+Spring 2016,MATH 253 AC,'G00990362,"Hilby, Kristan M.",khilby@my.smccd.edu,650-274-1565 
+Spring 2016,MATH 253 AC,'G00913598,"Hylton, Christopher W.",chrishylton@my.smccd.edu,650-245-0432 
+Spring 2016,MATH 253 AC,'G01018283,"Kang, Hee Sung",heesungkang@my.smccd.edu,415-990-4377 
+Spring 2016,MATH 253 AC,'G01009496,"Khoury, Joseph B.",jkhour11@my.smccd.edu,619-665-4471 
+Spring 2016,MATH 253 AC,'G01008992,"Kim, Youngmin",ykim91@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G00989187,"Komura, Toshiaki",tkomura1@my.smccd.edu,817437-433-46 
+Spring 2016,MATH 253 AC,'G01022393,"Li, Wensi",wensili@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G01007270,"Liu, Lulu",lliu52@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G00980920,"Liu, Shengqi",sliu83@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G01012175,"Lui, James W.",jameslui@my.smccd.edu,415-860-6603 
+Spring 2016,MATH 253 AC,'G01027887,"Lui, Lok Ching",lokchinglui@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G00994213,"Macmillan, Graham R.",gmacmil2@my.smccd.edu,775-544-0575 
+Spring 2016,MATH 253 AC,'G01037775,"Mah, Kenji M.",kenjimah@my.smccd.edu,415-589-9295 
+Spring 2016,MATH 253 AC,'G00915224,"Martinez, Alexandra",alexamartine@my.smccd.edu,650-610-9153 
+Spring 2016,MATH 253 AC,'G01016336,"Mi, Bojun",bojunmi@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G00976380,"Naar, Nicolas S.",nnaar@my.smccd.edu,650-766-2731 
+Spring 2016,MATH 253 AC,'G00924172,"Paap, Alexander K.",alexapaap@my.smccd.edu,650-235-5299 
+Spring 2016,MATH 253 AC,'G00936032,"Pari, Fatima H.",fatimpari@my.smccd.edu,408-666-9798 
+Spring 2016,MATH 253 AC,'G01017350,"Patel, Shreya",shreyapatel@my.smccd.edu, 
+Spring 2016,MATH 253 AC,'G00969407,"Pedersen, Ronald J.",rpeders4@my.smccd.edu,425-736-3579 
+Spring 2016,MATH 253 AC,'G00971675,"Schwarz, Taiga F.",tschwar6@my.smccd.edu,650-759-4051 
+Spring 2016,MATH 253 AC,'G01003207,"Sun, Xiaoqian",xsun6@my.smccd.edu,408-896-3537 
+Spring 2016,MATH 253 AC,'G01013075,"Woo, Jonathan A.",jonathanwoo@my.smccd.edu,415-312-6750 
+Spring 2016,MATH 253 AC,'G00998089,"Wu, Simon",swu83@my.smccd.edu,415-336-2459 
+Spring 2016,MATH 253 AC,'G01018423,"Xu, Darwin",darwinxu@my.smccd.edu,415-933-6342 
+Spring 2016,MATH 253 AC,'G01009504,"Yan, Weiwen",wyan12@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01013181,"Alazzeh, Amien M.",amienalazzeh@my.smccd.edu,650-307-9215 
+Spring 2016,MATH 251 AF,'G01043286,"Chan, Simon",simonchan@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01034409,"Daoudi, Omar K.",omardaoudi@my.smccd.edu,650-035-0666 
+Spring 2016,MATH 251 AF,'G01045281,"Dong, Siyang",siyangdong@my.smccd.edu,650-743-9568 
+Spring 2016,MATH 251 AF,'G00968139,"Edradan, Joseph P.",jedrada2@my.smccd.edu,650-787-8581 
+Spring 2016,MATH 251 AF,'G01044021,"Greer, Isaac S.",isaacgreer@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01023988,"Leung, Chung Hin",chunghinleung@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01037497,"Li, Haoran",haoranli@my.smccd.edu,86-139-02985107 
+Spring 2016,MATH 251 AF,'G01047661,"Lim, Bohyun",bohyunlim@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G00975453,"Lin, Naing O.",nlin12@my.smccd.edu,650-504-4453 
+Spring 2016,MATH 251 AF,'G01033537,"Ma, Ching Man",chingmanma@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01032048,"Macairan, Gemmalyn L.",gemmalynmacairan@my.smccd.edu,925-639-2666 
+Spring 2016,MATH 251 AF,'G01044912,"Mat Kamal, Amir Farhan",amirfarhanmatkamal@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G00955040,"Montesa, Marc G.",mmontesa@my.smccd.edu,510-972-0398 
+Spring 2016,MATH 251 AF,'G01006064,"Palima, Justin J.",jpalima@my.smccd.edu,954-496-0405 
+Spring 2016,MATH 251 AF,'G01008377,"Quijada, Josselyn M.",jquijad2@my.smccd.edu,650-274-4501 
+Spring 2016,MATH 251 AF,'G01026102,"Sevillia, Aidan J.",aidansevillia@my.smccd.edu,650-274-8856 
+Spring 2016,MATH 251 AF,'G01001160,"Speccia, Anthony J.",aspeccia@my.smccd.edu,650-784-1934 
+Spring 2016,MATH 251 AF,'G01024328,"Uchoa, Pedro Hugo M.",pedrohugouchoa@my.smccd.edu,858-652-9209 
+Spring 2016,MATH 251 AF,'G01000590,"Villasenor, Emmanuel",evillas5@my.smccd.edu,650-740-2354 
+Spring 2016,MATH 251 AF,'G01000527,"Wu, Manying",mwu67@my.smccd.edu,650-787-7959 
+Spring 2016,MATH 251 AF,'G01043140,"Xing, Yuan",yuanxing@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01049997,"Xiong, Chaofan",chaofanxiong@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01023562,"Yu, Mingli",mingliyu@my.smccd.edu, 
+Spring 2016,MATH 251 AF,'G01038283,"Zhou, Ke",kezhou@my.smccd.edu, 
