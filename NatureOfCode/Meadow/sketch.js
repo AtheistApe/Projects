@@ -11,6 +11,7 @@ var tfc; // Target flower canvas
 
 function setup() {
   createCanvas(640, 480);
+
   tfc = createGraphics(100, 100);
   createImg(tfc.show());
   // createP('');
@@ -43,7 +44,7 @@ function draw() {
   target_dna.genes = {'numpetals':numpetal_slider.value(),
   'petalcolor':lerpColor(color('yellow'),color('red'),petalcolor_slider.value()/100),
   'petallength':petallength_slider.value()};
-  
+
   target_flower = new Flower(target_dna);
   target_flower.pos.x = tfc.width/2;
   target_flower.pos.y = tfc.height/2;
