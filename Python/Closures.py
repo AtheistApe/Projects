@@ -1,4 +1,23 @@
+# Closures
+
+# In programming languages, closures (also lexical closures or function
+# closures) are techniques for implementing lexically scoped name binding
+# in languages with first-class functions. Operationally, a closure is a
+# record storing a function[a] together with an environment: a mapping
+# associating each free variable of the function (variables that are used
+# locally, but defined in an enclosing scope) with the value or reference
+# to which the name was bound when the closure was created. A
+# closure-unlike a plain function-allows the function to access those
+# captured variables through the closure's copies of their values or
+# references, even when the function is invoked outside their scope.
+
 # Example 1
+# The function 'outer_func' defines and returns the function 'inner_func'
+# which, when called,  prints the message passed into 'outer_func' as an
+# argument. Even though the message is a local variable only to 'outer_func'
+# it is still available in 'inner_func' after 'outer_func' has completed.
+
+
 def outer_func(msg):
     message = msg
 
@@ -11,9 +30,8 @@ def outer_func(msg):
 hi_func = outer_func("Hi!")
 hello_func = outer_func("Hello!")
 
-hi_func()
-hello_func()
-
+hi_func()  # The 'msg' variable  value "Hi!" is available to 'hi_func'
+hello_func()  # The 'msg' variable value "Hello!" is available to 'hello_func'
 
 
 # Example 2
@@ -38,6 +56,7 @@ def logger(func):
         logging.info("Running {} with arguments {}".format(func.__name__, args))
         print(func(*args))
     return log_func
+
 
 def add(x, y):
     return x + y
