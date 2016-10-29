@@ -1,3 +1,5 @@
+# First Class Functions
+
 # In computer science, a programming language is said to have first -
 # class functions if it treats functions as first class citizens.
 # Specifically, this means the language supports passing functions as
