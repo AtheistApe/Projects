@@ -41,8 +41,8 @@ class Employee:
 # argument to the subclass in the defintion of the subclass as the example
 # below shows
 
-# class Developer(Employee):
-#     pass
+class Developer(Employee):
+    pass
 
 # Now when we create a 'Developer' object, it will inherit all the attributes
 # and methods of the 'Employee' class. Since this 'Developer' class does not
@@ -51,13 +51,23 @@ class Employee:
 # called the 'method resolution order'. We can use the 'help' function to
 # better understand the method resolution order of a given class.
 
-# dev1 = Developer('Joe', 'Nickel', 100000)
-# print(dev1.fullname())
-# print(dev1.pay)
-# print(dev1.email)
-#
-# # print(help(Developer))  # prints info about the 'Developer' class
+dev1 = Developer('Joe', 'Nickel', 100000)
+print(dev1.fullname())
+print(dev1.pay)
+print(dev1.email)
 
+
+# print(help(Developer))
+# The command above prints info about the 'Develope' class. In particular it
+# prints:
+#
+# Help on class Developer in module __main__:
+#
+# class Developer(Employee)
+#  |  Method resolution order:
+#  |      Developer
+#  |      Employee
+#  |      builtins.object
 
 # We can customize the subclass by modifying its methods and attributes. For
 # example, here's how we can change the 'raise_amt'
