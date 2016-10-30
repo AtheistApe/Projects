@@ -51,7 +51,7 @@ class Developer(Employee):
 # called the 'method resolution order'. We can use the 'help' function to
 # better understand the method resolution order of a given class.
 
-dev1 = Developer('Joe', 'Nickel', 100000)
+dev1 = Developer('Joe', 'Dime', 100000)
 print(dev1.fullname())
 print(dev1.pay)
 print(dev1.email)
@@ -73,9 +73,12 @@ print(dev1.email)
 # example, here's how we can change the 'raise_amt'
 
 class Developer(Employee):
-    raise_amt = 1.10
+    raise_amount = 1.10
 
-dev1 = Developer('Joe', 'Nickel', 100000)
+print(help(Developer))
+
+dev1 = Developer('Joe', 'Schmo', 100000)
+print(dev1.fullname())
 print(dev1.pay)
 dev1.apply_raise()
 print(dev1.pay)
