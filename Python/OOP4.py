@@ -146,3 +146,14 @@ print(man1.email)
 man1.print_emps()
 man1.add_emp(dev2)
 man1.print_emps()
+
+# The 'isinstance' and 'issubclass' functions.
+#
+# 'isinstance(obj1, obj2)' determines if 'obj1' is an object of class
+# 'obj2'. Returns 'True' or 'False'.
+#
+# 'issubclass(obj1, obj2)' determines if 'obj1' is a subclass of class 'obj2'.
+# Returns 'True' or 'False'.
+
+print(isinstance(man1, Manager))
+print(issubclass(Manager, Employee))
