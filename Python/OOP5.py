@@ -11,7 +11,7 @@ print('3' + '5') # Concatenates the strings '3' and '5' returning '35'
 # objects is being called as 'str__add__('3', '5')'.
 
 # The special methods are always surrounded by '__' (double underscores,
-# sometimes called 'dunder'). For example, the class initialization methods
+# sometimes called 'dunder'). For example, the class initialization method
 # '__init__' is one such special method that we have already been using. We
 # will use some more of these special methods in our 'Employee' class example.
 
@@ -37,7 +37,7 @@ class Employee:
     # Two other special methods which should probably be used in every class
     # definition are '__repr__' and '__str__'. The '__repr__' method is meant
     # to be an unambigious representation of the object and should be used for
-    # debugging, logging, etc; I meant to be seen by other developers. The
+    # debugging, logging, etc; It is meant to be seen by other developers. The
     # '__str__' is meant to be a readable representation of the object for the
     # end user.
 
