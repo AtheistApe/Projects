@@ -5,7 +5,10 @@ led = pyb.LED(4)
 led.off()
 
 morse_codes = {'a':'*-', 'b':'-***', 'c':'-*-*', 'd':'-**',
-'e':'*', 'f':'**-*', 'g':'--*', 'h':'****', 'i':'**', 'j':'*---', 'k':'-*-', 'l':'*-**', 'm':'--', 'n':'-*', 'o':'---', 'p':'*--*', 'q':'--*-', 'r':'*-*', 's':'***', 't':'-', 'u':'**-', 'v':'***-', 'w':'*--', 'x':'-**-', 'y':'-*--', 'z':'--**', ' ':' '}
+'e':'*', 'f':'**-*', 'g':'--*', 'h':'****', 'i':'**', 'j':'*---',
+'k':'-*-', 'l':'*-**', 'm':'--', 'n':'-*', 'o':'---', 'p':'*--*',
+'q':'--*-', 'r':'*-*', 's':'***', 't':'-', 'u':'**-', 'v':'***-',
+'w':'*--', 'x':'-**-', 'y':'-*--', 'z':'--**', ' ':' '}
 
 message = 'This is my message'
 
@@ -17,13 +20,13 @@ def dot():
     pyb.delay(dot_length)
     led.off()
     pyb.delay(dot_length)
-    
+
 def dash():
     led.on()
     pyb.delay(dash_length)
     led.off()
     pyb.delay(dot_length)
-    
+
 def word():
     pyb.delay(2*dash_length)
 
@@ -33,7 +36,7 @@ def encode(message):
     for char in message:
         encoded_message.append(morse_codes[char])
     return ' '.join(encoded_message)
-    
+
 def send(encoded_message):
     print(encoded_message)
     for dotdash in encoded_message:
@@ -46,6 +49,3 @@ def send(encoded_message):
 
 
 send(encode('This is an encoded message))
-
-
-
