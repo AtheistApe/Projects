@@ -12,14 +12,16 @@ function setup() {
   // background(255);
   randomSeed();
   // wind = createVector(0, 0);
-  var b = new Branch(createVector(width / 2, height), createVector(0, -1), 150, 1);
+  var b = new Branch(createVector(width / 2, height),
+    createVector(0, -1), 150, 1);
   tree.push(b);
 }
 
 function draw() {
   background(255);
   offset += 10;
-  wind = createVector(map(noise(offset),0,1,-0.001,0.001), 0);
+  wind = createVector(map(noise(offset),0,1,-0.001,0.001),
+    map(noise(offset),1000,1,0.002,0));
   for (var i = 0; i < tree.length; i++) {
     // Get the branch, update and draw it
     tree[i].update();
