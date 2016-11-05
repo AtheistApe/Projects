@@ -130,13 +130,13 @@ while running:
         m = Mob()
         all_sprites.add(m)
         mobs.add(m)
-        
+
     # Check to see if a mob hit the player. The 'spritecollide'
     # function returns a list of any of the mobs that hit the
     # player.
     hits = pygame.sprite.spritecollide(player, mobs, False)
     if hits:
-        running = False
+        running = False # The game ends
 
     # Draw / render
     screen.fill(BLACK)
