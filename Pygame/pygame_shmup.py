@@ -42,6 +42,8 @@ class Player(pygame.sprite.Sprite):
         self.image = pygame.transform.scale(player_img, (50,38))
         self.image.set_colorkey(BLACK) # Makes 'BLACK' transparent
         self.rect = self.image.get_rect()
+        self.radius = 20
+        # pygame.draw.circle(self.image, RED, self.rect.center, self.radius)
         self.rect.centerx = WIDTH/2
         self.rect.bottom = HEIGHT - 10
         self.speedx = 0
@@ -71,6 +73,8 @@ class Mob(pygame.sprite.Sprite):
         self.image = meteor_img
         self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
+        self.radius = int(0.85*self.rect.width / 2)
+        # pygame.draw.circle(self.image, RED, self.rect.center, self.radius)
         self.rect.x = random.randrange(WIDTH - self.rect.width)
         self.rect.y = random.randrange(-100, - 40)
         self.speedy = random.randrange(1, 8)
@@ -149,8 +153,12 @@ while running:
 
     # Check to see if a mob hit the player. The 'spritecollide'
     # function returns a list of any of the mobs that hit the
-    # player.
-    hits = pygame.sprite.spritecollide(player, mobs, False)
+    # player. Neglecting the last parameter '... .collide_circle'
+    # after 'False' collison detection will be with bounding
+    # rectangular boxes. With that parameter, collision detection
+    # will be with bounding circles (colliding objects must then
+    # contain a 'radius' attribute.)
+    hits = pygame.sprite.spritecollide(player, mobs, False, pygame.sprite.collide_circle)
     if hits:
         running = False # The game ends
 
