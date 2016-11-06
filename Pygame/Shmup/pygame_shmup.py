@@ -2,6 +2,10 @@
 
 # Good source for free art is 'opengameart.org'. Search
 # for 'kenney' -- he as some great stuff you can use.
+
+# The website 'www.bfxr.net' is a great place to create
+# your own sound effects.
+
 import pygame
 import random
 import os
@@ -200,8 +204,8 @@ while running:
     screen.fill(BLACK)
     screen.blit(background, background_rect)
     all_sprites.draw(screen) # Draw all sprites in the sprite group
-    draw_text(screen, str(score), 18, WIDTH/2, 10)
-    # *after* drawing everything, flip the display
+    draw_text(screen, str(score), 36, WIDTH/2, 10)
+    # *after* drawing everything, flip tyouhe display
     pygame.display.flip()
 
 pygame.quit()
