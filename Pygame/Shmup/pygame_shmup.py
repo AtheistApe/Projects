@@ -1,5 +1,10 @@
 # Pygame shmup (shoot-em up) game.
 
+# Frozen Jam by tgfcoder <https://twitter.com/tgfcoder>
+# licensed under CC-BY-3 <http://creativecommons.org/licenses/by/3.0/>
+
+# Art from Kenney.nl
+
 # Good source for free art is 'opengameart.org'. Search
 # for 'kenney' -- he as some great stuff you can use.
 
@@ -12,6 +17,7 @@ import os
 # from os import path
 
 img_dir = os.path.join(os.path.dirname(__file__), 'img')
+snd_dir = os.path.join(os.path.dirname(__file__), 'snd')
 
 WIDTH = 480
 HEIGHT = 600
@@ -33,7 +39,7 @@ img_folder = os.path.join(game_folder, "img")
 
 # Initialize pygame and create window
 pygame.init()
-pygame.mixer.init()
+pygame.mixer.init() # Initializes the sound system; Needed to play sounds!
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Shmup")
 clock = pygame.time.Clock()
@@ -77,6 +83,7 @@ class Player(pygame.sprite.Sprite):
         bullet = Bullet(self.rect.centerx, self.rect.top)
         all_sprites.add(bullet)
         bullets.add(bullet)
+        shoot_sound.play()
 
 class Mob(pygame.sprite.Sprite):
     def __init__(self):
@@ -148,6 +155,15 @@ meteor_list = ['meteorBrown_big1.png', 'meteorBrown_big2.png', 'meteorBrown_med1
 for img in meteor_list:
     meteor_images.append(pygame.image.load(os.path.join(img_dir, img)).convert())
 
+# Load all game sounds
+shoot_sound = pygame.mixer.Sound(os.path.join(snd_dir, 'Laser_Shoot2.wav'))
+expl_sounds = []
+for snd in ['Expl1.wav', 'Exlp2.wav']:
+    expl_sounds.append(pygame.mixer.Sound(os.path.join(snd_dir, snd)))
+
+pygame.mixer.music.load(os.path.join(snd_dir, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
+pygame.mixer.music.set_volume(0.4)
+
 all_sprites = pygame.sprite.Group()
 mobs = pygame.sprite.Group()
 bullets = pygame.sprite.Group()
@@ -161,6 +177,7 @@ for i in range(8):
 
 score = 0
 
+pygame.mixer.music.play(loop=-1) # '-1' means music will continuously loop.
 # Game loop
 running = True
 while running:
@@ -185,6 +202,7 @@ while running:
     hits = pygame.sprite.groupcollide(mobs, bullets, True, True)
     for hit in hits:
         score += 50 - hit.radius
+        random.choice(expl_sounds).play()
         m = Mob()
         all_sprites.add(m)
         mobs.add(m)
