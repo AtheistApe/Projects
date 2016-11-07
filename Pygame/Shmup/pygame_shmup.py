@@ -53,6 +53,25 @@ def draw_text(surf, text, size, x, y):
     text_rect.midtop = (x, y)
     surf.blit(text_surface, text_rect)
 
+# Spawn a new mob
+def newmob():
+    m = Mob()
+    all_sprites.add(m)
+    mobs.add(m)
+
+# Draw a bar showing the amount of shield remaining on the
+# player's ship.
+def draw_shield_bar(surf, x, y, pct):
+    if pct < 0:
+        pct = 0
+    BAR_LENGTH = 200
+    BAR_HEIGHT = 10
+    fill = (pct / 100) * BAR_LENGTH
+    outline_rect = pygame.Rect(x, y, BAR_LENGTH, BAR_HEIGHT)
+    fill_rect = pygame.Rect(x, y, fill, BAR_HEIGHT)
+    pygame.draw.rect(surf, GREEN, fill_rect)
+    pygame.draw.rect(surf, WHITE, outline_rect, 2)
+
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
@@ -66,6 +85,7 @@ class Player(pygame.sprite.Sprite):
         self.rect.centerx = WIDTH/2
         self.rect.bottom = HEIGHT - 10
         self.speedx = 0
+        self.shield = 100
 
     def update(self):
         self.speedx = 0
@@ -161,7 +181,7 @@ expl_sounds = []
 for snd in ['Expl1.wav', 'Exlp2.wav']:
     expl_sounds.append(pygame.mixer.Sound(os.path.join(snd_dir, snd)))
 
-pygame.mixer.music.load(os.path.join(snd_dir, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
+# pygame.mixer.music.load(os.path.join(snd_dir, 'tgfcoder-FrozenJam-SeamlessLoop.ogg'))
 pygame.mixer.music.set_volume(0.4)
 
 all_sprites = pygame.sprite.Group()
@@ -171,13 +191,11 @@ bullets = pygame.sprite.Group()
 player = Player()
 all_sprites.add(player)
 for i in range(8):
-    m = Mob()
-    all_sprites.add(m)
-    mobs.add(m)
+    newmob()
 
 score = 0
 
-pygame.mixer.music.play(loop=-1) # '-1' means music will continuously loop.
+# pygame.mixer.music.play(loop=-1) # '-1' means music will continuously loop.
 # Game loop
 running = True
 while running:
@@ -201,11 +219,9 @@ while running:
     # groups during a collision between those objects.
     hits = pygame.sprite.groupcollide(mobs, bullets, True, True)
     for hit in hits:
-        score += 50 - hit.radius
+        score += 60 - hit.radius
         random.choice(expl_sounds).play()
-        m = Mob()
-        all_sprites.add(m)
-        mobs.add(m)
+        newmob()
 
     # Check to see if a mob hit the player. The 'spritecollide'
     # function returns a list of any of the mobs that hit the
@@ -213,16 +229,21 @@ while running:
     # after 'False' collison detection will be with bounding
     # rectangular boxes. With that parameter, collision detection
     # will be with bounding circles (colliding objects must then
-    # contain a 'radius' attribute.)
-    hits = pygame.sprite.spritecollide(player, mobs, False, pygame.sprite.collide_circle)
-    if hits:
-        running = False # The game ends
+    # contain a 'radius' attribute.) 'True' makes the meteors
+    # disappear when they collide with the player.
+    hits = pygame.sprite.spritecollide(player, mobs, True, pygame.sprite.collide_circle)
+    for hit in hits:
+        player.shield -= hit.radius * 0.5
+        newmob()
+        if player.shield <= 0:
+            running = False # The game ends
 
     # Draw / render
     screen.fill(BLACK)
     screen.blit(background, background_rect)
     all_sprites.draw(screen) # Draw all sprites in the sprite group
     draw_text(screen, str(score), 36, WIDTH/2, 10)
+    draw_shield_bar(screen, 5, 5, player.shield)
     # *after* drawing everything, flip tyouhe display
     pygame.display.flip()
 
