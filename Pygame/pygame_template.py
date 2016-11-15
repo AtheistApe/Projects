@@ -2,6 +2,10 @@
 
 # Good source for free art is 'opengameart.org'. Search
 # for 'kenney' -- he as some great stuff you can use.
+
+# The website 'www.bfxr.net' is a great place to create
+# your own sound effects.
+
 import pygame
 import random
 import os
@@ -23,6 +27,7 @@ CYAN = (0, 255, 255)
 # Note: '__file__' gives the path of the current file
 game_folder = os.path.dirname(__file__)
 img_folder = os.path.join(game_folder, "img")
+snd_folder = os.path.join(game_folder, "snd")
 
 # Initialize pygame and create window
 pygame.init()
