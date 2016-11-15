@@ -11,4 +11,6 @@ else
   exit 1
 fi
 
-cc -std=c99 -Wall -Wstrict-prototypes -ansi -pedantic -g $FILE -o $FILE_NAME
+# cc -std=c99 -Wall -Wstrict-prototypes -ansi -pedantic -g $FILE -o $FILE_NAME
+# cc -std=c99 -Wall -Wstrict-prototypes -ansi -g $FILE -o $FILE_NAME
+cc -std=c99 -Wall -Wstrict-prototypes -ansi -pedantic $FILE -o $FILE_NAME

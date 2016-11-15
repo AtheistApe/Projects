@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+int i;
+
 int hello_world_1(int n) {
-  for (int i = 1; i <= n; i++){
+  for (i = 1; i <= n; i++){
     puts("Hello World!");
   }
   return 0;
@@ -18,7 +20,7 @@ int hello_world_2(int n){
 
 int main(int argc, char** argv) {
 
-  hello_world_1(3);
+  hello_world_1(5);
   puts("");
-  hello_world_2(4);
+  hello_world_2(2);
 }
