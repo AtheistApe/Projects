@@ -1,10 +1,15 @@
 # Game options/settings
 
-TITLE = "My Game"
-WIDTH = 360
-HEIGHT = 480
-FPS = 30
+TITLE = "Jumpy!"
+WIDTH = 480
+HEIGHT = 600
+FPS = 60
 
+# Player properties
+PLAYER_ACC = 0.5
+PLAYER_FRICTION = -0.12
+
+# Define colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
