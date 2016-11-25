@@ -28,5 +28,5 @@ int main(int argc, char **argv) {
   p.x = 3.0;
   p.y = 10.0;
   len = length(p);
-  printf("The length is %f", len);
+  printf("The length is %f\n", len);
 }
