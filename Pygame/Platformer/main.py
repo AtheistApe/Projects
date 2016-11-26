@@ -47,6 +47,25 @@ class Game:
                 self.player.pos.y = hits[0].rect.top
                 self.player.vel.y = 0
 
+        # If player reaches top 1/4 of screen, want to scroll screen.
+        if self.player.rect.top <= HEIGHT / 4:
+            self.player.pos.y += abs(self.player.vel.y)
+            for plat in self.platforms:
+                plat.rect.y += abs(self.player.vel.y)
+                # Remove platforms that scroll off the bottom of the screen
+                if plat.rect.top >= HEIGHT:
+                    plat.kill()
+
+        # Spawn new platforms to keep same average number of platforms
+        while len(self.platforms) < 6:
+            width = random.randrange(50, 100)
+            p = Platform(random.randrange(0, WIDTH-width),
+                         random.randrange(-75, -30),
+                         width, 20)
+
+            self.platforms.add(p)
+            self.all_sprites.add(p) 
+
     def events(self):
         # Game loop - events
         for event in pg.event.get():
