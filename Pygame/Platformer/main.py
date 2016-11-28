@@ -63,10 +63,12 @@ class Game:
         if self.player.rect.bottom > HEIGHT:
             for sprite in self.all_sprites:
                 sprite.rect.y -= max(self.player.vel.y, 10)
+                # sprite.rect.y -= 1
                 if sprite.rect.bottom < 0:
                     sprite.kill()
         if len(self.platforms) == 0:
             self.playing = False
+            self.show_go_screen()
 
 
         # Spawn new platforms to keep same average number of platforms
@@ -93,7 +95,7 @@ class Game:
 
     def draw(self):
         # Game loop - draw
-        self.screen.fill(BLACK)
+        self.screen.fill(BGCOLOR)
         self.all_sprites.draw(self.screen) # Draw all sprites in the sprite group
         self.draw_text(str(self.score), 22, WHITE, WIDTH/2, 15)
         # *after* drawing everything, flip the display
@@ -101,11 +103,34 @@ class Game:
 
     def show_start_screen(self):
         # Game splash/start screen
-        pass
+        self.screen.fill(BGCOLOR)
+        self.draw_text(TITLE, 48, WHITE, WIDTH/2, HEIGHT/4)
+        self.draw_text("Arrows to move, Space to jump", 22, WHITE, WIDTH/2, HEIGHT/2)
+        self.draw_text("Press a key to play", 22, WHITE, WIDTH/2, HEIGHT*3/4)
+        pg.display.flip()
+        self.wait_for_key()
 
     def show_go_screen(self):
         # Game over/continue screen
-        pass
+        if not self.running:
+            return
+        self.screen.fill(BGCOLOR)
+        self.draw_text("GAME OVER", 48, WHITE, WIDTH/2, HEIGHT/4)
+        self.draw_text("Score: {}".format(self.score), 22, WHITE, WIDTH/2, HEIGHT/2)
+        self.draw_text("Press a key to play again", 22, WHITE, WIDTH/2, HEIGHT*3/4)
+        pg.display.flip()
+        self.wait_for_key()
+
+    def wait_for_key(self):
+        waiting = True
+        while waiting:
+            self.clock.tick(FPS)
+            for event in pg.event.get():
+                if event.type == pg.QUIT:
+                    waiting = False
+                    self.running = False
+                if event.type == pg.KEYUP:
+                    waiting = False
 
     def draw_text(self, text, size, color, x, y):
         font = pg.font.Font(self.font_name, size)

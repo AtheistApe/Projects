@@ -1,5 +1,4 @@
 # Game options/settings
-
 TITLE = "Jumpy!"
 WIDTH = 480
 HEIGHT = 600
@@ -28,3 +27,5 @@ BLUE = (0, 0, 255)
 YELLOW = (255, 255, 0)
 MAGENTA = (255, 0, 255)
 CYAN = (0, 255, 255)
+LIGHTBLUE = (0, 155, 155)
+BGCOLOR = LIGHTBLUE
