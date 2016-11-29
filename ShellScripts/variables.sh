@@ -1,11 +1,15 @@
 #!/bin/bash
+
+# Variable names in bash are typically spelled in all capital letters.
+# There should be no spaces between the equal sign and the variable
+# name and the assigned value.
 MY_SHELL="bash"
 
 # To use the contents of the variable, preceed it with a '$' sign.
 echo "I like the $MY_SHELL shell"
 
 # If the contents of the variable will be immediately preceeded or
-# followed by additional data.
+# followed by additional data enclose them within {}
 echo "I like ${MY_SHELL}ing out scripts"
 
 # To assign a variable the output of a command, place the command within '()'
