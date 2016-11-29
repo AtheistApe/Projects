@@ -1,10 +1,12 @@
 # Jumpy! - Platform game
 
+# File I/O
+
 import pygame as pg
 import random
-import os
 from settings import *
 from sprites import *
+from os import path
 
 class Game:
     def __init__(self):
@@ -16,6 +18,21 @@ class Game:
         pg.display.set_caption(TITLE)
         self.clock = pg.time.Clock()
         self.font_name = pg.font.match_font(FONT_NAME)
+        self.load_data()
+
+    def load_data(self):
+        # Load high score
+        self.dir = path.dirname(__file__)
+
+        # The 'w' option within the 'open' function will open the
+        # file for reading and writing and will create the file if
+        # the file doesn't already exist. When the 'with' block
+        # ends the file will automatically be closed.
+        with open(path.join(self.dir, HS_FILE), 'w') as f:
+            try:
+                self.highscore = int(f.read())
+            except:
+                self.highscore = 0
 
     def new(self):
         # Start a new game
@@ -107,6 +124,7 @@ class Game:
         self.draw_text(TITLE, 48, WHITE, WIDTH/2, HEIGHT/4)
         self.draw_text("Arrows to move, Space to jump", 22, WHITE, WIDTH/2, HEIGHT/2)
         self.draw_text("Press a key to play", 22, WHITE, WIDTH/2, HEIGHT*3/4)
+        self.draw_text("High Score: {}".format(str(self.highscore)), 22, WHITE, WIDTH/2, 15)
         pg.display.flip()
         self.wait_for_key()
 
@@ -118,6 +136,15 @@ class Game:
         self.draw_text("GAME OVER", 48, WHITE, WIDTH/2, HEIGHT/4)
         self.draw_text("Score: {}".format(self.score), 22, WHITE, WIDTH/2, HEIGHT/2)
         self.draw_text("Press a key to play again", 22, WHITE, WIDTH/2, HEIGHT*3/4)
+        if self.score > self.highscore:
+            self.highscore = self.score
+            self.draw_text("NEW HIGH SCORE!", 22, WHITE, WIDTH/2, HEIGHT/2 + 40)
+            with open(path.join(self.dir, HS_FILE), 'w') as f:
+                f.write(str(self.score))
+        else:
+            self.draw_text("High Score: {}".format(str(self.highscore)), 22, WHITE, WIDTH/2, HEIGHT/2 + 40)
+
+
         pg.display.flip()
         self.wait_for_key()
 
