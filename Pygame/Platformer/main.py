@@ -23,6 +23,7 @@ class Game:
     def load_data(self):
         # Load high score
         self.dir = path.dirname(__file__)
+        img_dir = path.join(self.dir, 'img')
 
         # The 'w' option within the 'open' function will open the
         # file for reading and writing and will create the file if
@@ -33,6 +34,9 @@ class Game:
                 self.highscore = int(f.read())
             except:
                 self.highscore = 0
+
+        # Load spritesheet image
+        self.spritesheet = Spritesheet(path.join(img_dir, SPRITESHEET))
 
     def new(self):
         # Start a new game
@@ -143,7 +147,6 @@ class Game:
                 f.write(str(self.score))
         else:
             self.draw_text("High Score: {}".format(str(self.highscore)), 22, WHITE, WIDTH/2, HEIGHT/2 + 40)
-
 
         pg.display.flip()
         self.wait_for_key()

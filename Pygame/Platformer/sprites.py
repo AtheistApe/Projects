@@ -3,12 +3,29 @@ import pygame as pg
 from settings import *
 vec = pg.math.Vector2 # 2-dim vector class in Pygame
 
+class Spritesheet:
+    # Utility class for loading and parsing spritesheets
+    def __init__(self, filename):
+        self.spritesheet = pg.image.load(filename).convert()
+
+    def get_image(self, x, y, width, height):
+        # grab an image out of a larger spritesheet
+        image = pg.Surface((width, height))
+        image.blit(self.spritesheet, (0, 0), (x, y, width, height))
+
+        # The '//' forces result of division to be an integer.
+        image = pg.transform.scale(image, (width//2, height//2))
+
+        return image
+
 class Player(pg.sprite.Sprite):
     def __init__(self, game):
         pg.sprite.Sprite.__init__(self)
         self.game = game # Player object 'knows' about all objects in game class.
-        self.image = pg.Surface((30, 40))
-        self.image.fill(YELLOW)
+        # self.image = pg.Surface((30, 40))
+        # self.image.fill(YELLOW)
+        self.image = self.game.spritesheet.get_image(614, 1063, 120, 191)
+        self.image.set_colorkey(BLACK)
         self.rect = self.image.get_rect()
         self.pos = vec(WIDTH/2, HEIGHT/2)
         # self.rect.center = self.pos
