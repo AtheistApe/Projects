@@ -14,7 +14,8 @@ var vehicles = [];
 
 function setup() {
 
-  createCanvas(640, 360);
+  var canvas = createCanvas(640, 360);
+  canvas.parent('sketch-holder');
   // Make a new flow field with "resolution" of 16
   flowfield = new FlowField(20);
   // Make a whole bunch of vehicles with random maxspeed and maxforce values
